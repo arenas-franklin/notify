@@ -1,4 +1,4 @@
-body, h1, p, div {
+body, h1, p, div, img {
     margin:0px;
     padding: 0px;
     /* background-color:#2dcc70; */
@@ -49,6 +49,7 @@ h1{
 
 nav{
     display: flex;
+    
 }
 
 .cabecalho a:hover{
@@ -62,4 +63,40 @@ nav{
 }
 
 /* fim da formação do cabeçalho */
+    /* primeira section */
+.area-sobre{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    height: 40vh;
+}
+
+.card{
+    width: 20vw;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.card p{
+    color:#989898;
+    text-align: center;
+}
+.area-img{
+    background-color: #2dcc70;
+    width: 60px;
+    height: 60px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:50%;
+    padding: 10px;
+}
+
+/* fim da primeira section */
+
+/* começo da segunda section */
+
 
