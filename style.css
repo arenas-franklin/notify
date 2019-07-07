@@ -1,0 +1,65 @@
+body, h1, p, div {
+    margin:0px;
+    padding: 0px;
+    /* background-color:#2dcc70; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.verde{
+    color: #2dcc70;
+
+}
+
+/* formatação do cabeçalho */
+h1{
+    font-family: 'Pacifico', cursive;
+    font-size:38pt;
+}
+
+.cabecalho{
+    background-image:url('./img/banner.png');
+    background-size:cover;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+
+
+}
+
+
+.cabecalho div{
+    color:white;
+    width:20vw;
+    margin-left: 150px;
+}
+
+.cabecalho p{
+    margin:60px 0 20px 0;
+    text-align:justify;
+}
+
+
+.cabecalho a{
+    background-color:rgba(41, 37, 37, 0.514);
+    padding:10px;
+    margin-right: 10px;
+    border-radius: 50%;
+
+}
+
+nav{
+    display: flex;
+}
+
+.cabecalho a:hover{
+    background-color: #2dcc70;
+}
+
+.hand{
+    margin-top:100px;
+    margin-right: 50px;
+    width:27vw;
+}
+
+/* fim da formação do cabeçalho */
+
