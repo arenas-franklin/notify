@@ -63,7 +63,7 @@ nav{
 }
 
 /* fim da formação do cabeçalho */
-    /* primeira section */
+    /* primeira section  area sobre*/
 .area-sobre{
     display: flex;
     justify-content: space-around;
@@ -94,9 +94,56 @@ nav{
     border-radius:50%;
     padding: 10px;
 }
+/* fim da primeira section area sobre */
 
-/* fim da primeira section */
+/* começo da segunda section  cadastro*/
+ .area-cadastro{
+     display:flex;
+     height: 60vh;
+     background-color: #e3e3e3;
+     justify-content: space-around;
+     align-items: center;
+     flex-wrap:wrap;
+ }
 
-/* começo da segunda section */
+.card-cadastro{
+    width: 40vw;
+}
+.card-cadastro h3{ font-style: none;}
+.card-cadastro p{
+    line-height:170%;
+    color:#919191;
+}
+
+.campo{
+    display:flex; 
+    margin-top:20px;
+}
+
+.campo input{
+    width: 50%;
+    height: 25px;
+    padding: 10px;
+    border-style: none;
+    border-radius:8px 0px 0px 8px; 
+}
+
+.campo button{
+    background-color:#2dcc70;
+    color:#fff;
+    padding:5px 25px;
+    font-weight: bold;
+    border-radius: 0px 8px 8px 0px;
+    border-style:none;
+
+}
+
+.video{
+    height: 300px;
+    width: 400px;
+    border-radius:5px;
+}
+ /* fim da segunda section cadastro */
+
 
 
