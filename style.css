@@ -3,6 +3,7 @@ body, h1, p, div, img {
     padding: 0px;
     /* background-color:#2dcc70; */
     font-family: Arial, Helvetica, sans-serif;
+    font-size:14pt;
 }
 
 .verde{
@@ -22,8 +23,6 @@ h1{
     display:flex;
     justify-content:space-around;
     align-items: center;
-
-
 }
 
 
@@ -145,5 +144,60 @@ nav{
 }
  /* fim da segunda section cadastro */
 
+/* inicio da  terceira section area pessoa */
+.area-pessoas{
+    height: 70vh;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+.citacao{
+    width: 50vw;
+    text-align: center;
+    font-style: italic;
+    color:#989898;
+    line-height:150%;
+    margin-top: 50px;
+}
+.autor{
+    font-weight: bold;
+    font-size:14pt;
+    padding:10px 0px 10px;
+}
 
+/* .foto img{
+    padding: 0px;
+    margin-right:5px; */
+/* } */
+
+.foto img:hover{
+    background-color: #2dcc70;
+    opacity: 0.5;
+}
+.area-pessoas ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.area-pessoas ul li{
+    background-color:#989898;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.area-pessoas ul li:hover{
+    background-color: #2dcc70;
+}
+
+.area-pessoas p{
+    color:#989898;
+}
+/* fim da terceira section section area pessoa */
+.rodape{
+    height: 30vh;
+    background-color: #989898;
+}
 
