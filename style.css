@@ -165,15 +165,22 @@ nav{
     padding:10px 0px 10px;
 }
 
-/* .foto img{
-    padding: 0px;
-    margin-right:5px; */
-/* } */
+.foto{
+    display:flex;
+}
 
-.foto img:hover{
-    background-color: #2dcc70;
+
+.img-pessoa{
+    width: 50px;
+    height: 50px;
+    background-image: url('./img/pessoa1.jpg');
+    margin-right:5px; 
+}
+
+.img-pessoa:hover{
     opacity: 0.5;
 }
+
 .area-pessoas ul{
     display: flex;
     list-style: none;
